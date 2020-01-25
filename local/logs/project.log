@@ -1,0 +1,69 @@
+2020-01-25T08:19:48.433Z - normal: Load ~/.CocosCreator/settings.json
+2020-01-25T08:19:48.494Z - normal: Initializing Asset Database
+2020-01-25T08:19:48.498Z - normal: checking language setting...
+2020-01-25T08:19:48.499Z - normal: Language: zh
+2020-01-25T08:19:48.897Z - success: preview server running at http://localhost:7456
+2020-01-25T08:19:48.901Z - success: protocol editor-framework registered
+2020-01-25T08:19:48.901Z - success: protocol app registered
+2020-01-25T08:19:48.901Z - success: protocol theme registered
+2020-01-25T08:19:48.901Z - success: protocol packages registered
+2020-01-25T08:19:48.901Z - success: protocol uuid registerred
+2020-01-25T08:19:48.901Z - success: protocol db registerred
+2020-01-25T08:19:48.901Z - success: protocol thumbnail registerred
+2020-01-25T08:19:48.902Z - success: protocol unpack registerred
+2020-01-25T08:19:48.902Z - success: protocol disable-commonjs registerred
+2020-01-25T08:19:49.051Z - normal: connected!
+2020-01-25T08:19:49.052Z - normal: Check project C:\Users\12824\Documents\BBDemo
+2020-01-25T08:19:49.053Z - normal: Initializing project C:\Users\12824\Documents\BBDemo
+2020-01-25T08:19:49.086Z - success: adapters loaded
+2020-01-25T08:19:49.089Z - success: asset-db-debugger loaded
+2020-01-25T08:19:49.150Z - success: fb-audience-network loaded
+2020-01-25T08:19:49.177Z - success: fb-live-stream loaded
+2020-01-25T08:19:49.179Z - success: google-play-instant loaded
+2020-01-25T08:19:49.183Z - success: huawei-runtime loaded
+2020-01-25T08:19:49.184Z - success: jkw-adapter loaded
+2020-01-25T08:19:49.185Z - success: jsb-adapter loaded
+2020-01-25T08:19:49.188Z - success: oppo-runtime loaded
+2020-01-25T08:19:49.191Z - success: package-manager loaded
+2020-01-25T08:19:49.191Z - success: qtt-adapter loaded
+2020-01-25T08:19:49.193Z - success: runtime-dev-tools loaded
+2020-01-25T08:19:49.198Z - success: sdkbox loaded
+2020-01-25T08:19:49.200Z - success: ui-kit-preview-extra loaded
+2020-01-25T08:19:49.202Z - success: ui-kit-preview loaded
+2020-01-25T08:19:49.206Z - success: vivo-runtime loaded
+2020-01-25T08:19:49.208Z - success: alipay-minigame loaded
+2020-01-25T08:19:49.251Z - success: assets loaded
+2020-01-25T08:19:49.254Z - success: baidugame-opendata loaded
+2020-01-25T08:19:49.256Z - success: baidugame loaded
+2020-01-25T08:19:49.258Z - success: builder loaded
+2020-01-25T08:19:49.385Z - success: cocos-services loaded
+2020-01-25T08:19:49.387Z - success: console loaded
+2020-01-25T08:19:49.398Z - success: fb-instant-games loaded
+2020-01-25T08:19:49.399Z - success: game-window loaded
+2020-01-25T08:19:49.400Z - success: google-instant-games loaded
+2020-01-25T08:19:49.403Z - success: hierarchy loaded
+2020-01-25T08:19:49.404Z - success: inspector loaded
+2020-01-25T08:19:49.668Z - success: cpk-publish loaded
+2020-01-25T08:19:49.673Z - success: keystore loaded
+2020-01-25T08:19:49.684Z - success: node-library loaded
+2020-01-25T08:19:49.686Z - success: open-recent-items loaded
+2020-01-25T08:19:49.687Z - success: package-asset loaded
+2020-01-25T08:19:49.688Z - success: preferences loaded
+2020-01-25T08:19:49.689Z - success: project-exporter loaded
+2020-01-25T08:19:49.690Z - success: project-importer loaded
+2020-01-25T08:19:49.692Z - success: project-settings loaded
+2020-01-25T08:19:49.706Z - success: qtt-runtime loaded
+2020-01-25T08:19:49.708Z - success: scene loaded
+2020-01-25T08:19:49.709Z - success: simulator-debugger loaded
+2020-01-25T08:19:49.710Z - success: sprite-editor loaded
+2020-01-25T08:19:49.712Z - success: store loaded
+2020-01-25T08:19:49.714Z - success: timeline loaded
+2020-01-25T08:19:49.717Z - success: wechatgame-opendata loaded
+2020-01-25T08:19:49.720Z - success: wechatgame loaded
+2020-01-25T08:19:49.723Z - success: xiaomi-runtime loaded
+2020-01-25T08:19:50.463Z - normal: Initializing Cocos2d
+2020-01-25T08:19:50.864Z - normal: Initializing engine extends
+2020-01-25T08:19:51.457Z - normal: Loading packages
+2020-01-25T08:19:51.463Z - normal: Watching packages
+2020-01-25T08:19:51.525Z - info: Cocos Service load base data!
+2020-01-25T08:19:51.815Z - normal: Run Application
