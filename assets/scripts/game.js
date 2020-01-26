@@ -12,6 +12,11 @@ cc.Class({
 			type:cc.Node
 		},
 		
+		settingBtn:{
+			default:null,
+			type:cc.Node
+		},
+		
 		combo:{//目前combo数
 			default:0,
 			visible:false
@@ -72,6 +77,77 @@ cc.Class({
 		var startBtn = this.startBtn;
 		startBtn.on('touchend',self.gameStart,this);
 		
+		
+		//为设置按钮添加监听函数
+		var settingBtn = this.settingBtn;
+		var settingPanel = this.node.getChildByName('settingPanel');
+		settingBtn.on('touchend',function(){
+			speedLabel.getComponent(cc.Label).string = "游戏速度："+window.Global.gameSpeed+"(pixel/s)";		
+			offsetLabel.getComponent(cc.Label).string = "游戏偏移："+window.Global.offset*1000+"(ms)";
+			speedSlider.getComponent(cc.Slider).progress = parseFloat(window.Global.gameSpeed-300)/1000;
+			offsetSlider.getComponent(cc.Slider).progress = window.Global.offset*10+0.5;
+			switch(window.Global.accuracyOffset){
+				case 0:
+					cc.find('accuracyArea/accuracyToggleContainer/accurate',settingPanel).getComponent(cc.Toggle).isChecked = true;
+					break;
+				case 0.01:
+					cc.find('accuracyArea/accuracyToggleContainer/normal',settingPanel).getComponent(cc.Toggle).isChecked = true;
+					break;
+				case 0.02:
+					cc.find('accuracyArea/accuracyToggleContainer/fuzzy',settingPanel).getComponent(cc.Toggle).isChecked = true;
+					break;
+				default:
+			}
+			settingPanel.y=0;
+		},settingBtn);
+		
+		//完善设置界面
+		var returnBtn = cc.find('buttonArea/returnBtn',settingPanel);
+		var confirmBtn = cc.find('buttonArea/confirmBtn',settingPanel);
+		var speedSlider = cc.find('speedArea/speedSlider',settingPanel);
+		var speedLabel = cc.find('speedArea/speedLabel',settingPanel);
+		var offsetSlider = cc.find('offsetArea/offsetSlider',settingPanel);
+		var offsetLabel = cc.find('offsetArea/offsetLabel',settingPanel);
+		
+		this.speed = window.Global.gameSpeed;
+		this.offset = window.Global.offset;
+		
+		speedSlider.on('slide',function(slider){
+			slider.progress=slider.progress.toFixed(1);
+			var speed = 800 + (slider.progress-0.5)*1000;
+			speedLabel.getComponent(cc.Label).string = "游戏速度："+speed+"(pixel/s)";
+			this.speed = speed;
+		},this);
+		
+		offsetSlider.on('slide',function(slider){
+			slider.progress=slider.progress.toFixed(2);
+			var offset =parseInt(slider.progress*100)-50;
+			offsetLabel.getComponent(cc.Label).string = "游戏偏移："+offset+"(ms)";
+			this.offset = offset;
+		},this);
+		
+		returnBtn.on('touchend',function(){
+			settingPanel.y=10000;
+		},returnBtn);
+		confirmBtn.on('touchend',function(){
+			settingPanel.y=10000;
+			window.Global.gameSpeed = self.speed;
+			window.Global.offset = parseFloat(self.offset)/1000;
+			if(cc.find('accuracyArea/accuracyToggleContainer/accurate',settingPanel).getComponent(cc.Toggle).isChecked){
+				window.Global.accuracyOffset = 0;
+			}else if(cc.find('accuracyArea/accuracyToggleContainer/fuzzy',settingPanel).getComponent(cc.Toggle).isChecked){
+				window.Global.accuracyOffset = 0.015;
+			}else{
+				window.Global.accuracyOffset = 0.01;
+			}
+			window.Global.perfectTime = (window.Global.perfectTimeModel + window.Global.accuracyOffset).toFixed(2);
+			window.Global.greatTime = (window.Global.greatTimeModel + window.Global.accuracyOffset).toFixed(2);
+			window.Global.goodTime = (window.Global.goodTimeModel + window.Global.accuracyOffset).toFixed(2);
+			window.Global.badTime = (window.Global.badTimeModel + window.Global.accuracyOffset).toFixed(2);
+			window.Global.missTime = (window.Global.missTimeModel + window.Global.accuracyOffset).toFixed(2);
+			cc.director.loadScene('game');
+		},confirmBtn);
+		
 		//为暂停按钮添加监听函数
 		var pauseButton = this.node.getChildByName('pauseButton');
 		
@@ -88,19 +164,23 @@ cc.Class({
 		
 		var continueBtn = pausePanel.getChildByName('continueBtn');
 		var back2manuBtn = pausePanel.getChildByName('back2manuBtn');
+		var daojishi = this.node.getChildByName('daojishi');
 		
 		continueBtn.on('touchend',function(){
 			pausePanel.runAction(cc.fadeOut(0.2));
-			setTimeout(function(){
-				console.log(3);
+			setTimeout(function(){//倒计时
+				daojishi.y=0;//3
+				daojishi.getComponent(cc.Label).string = "倒计时：3";
 			},200);
 			setTimeout(function(){
-				console.log(2);
+				daojishi.getComponent(cc.Label).string = "倒计时：2";
 			},1200);
 			setTimeout(function(){
-				console.log(1);
+				daojishi.getComponent(cc.Label).string = "倒计时：1";
 			},2200);
 			setTimeout(function(){
+				daojishi.getComponent(cc.Label).string = "倒计时：0";
+				daojishi.y=10000;
 				pausePanel.x=10000;//隐藏
 				self.gamePauseOrResume();
 			},3200);
@@ -116,7 +196,7 @@ cc.Class({
 			cc.director.loadScene('game');
 		},finishPanel);
 	},
-
+	
 	gameStart:function(){//开始按钮的功能
 		var self = this;		
 		window.Global.musicDuration = this.node.getComponent(cc.AudioSource).getDuration();

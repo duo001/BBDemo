@@ -36,6 +36,10 @@ cc.Class({
 		this.nodePerfectTime = nodeSlideLength/window.Global.gameSpeed;
 		//注册键盘监听函数
 		cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+		var keyArea = this.node.getChildByName('keyArea');
+		keyArea.on('touchstart',function(){
+			this.judgeNote();
+		},this);
 	},
 	
 	onKeyDown:function(event){

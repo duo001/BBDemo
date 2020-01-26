@@ -18,50 +18,34 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 474,
+                "height": 477,
                 "type": "panel",
-                "width": 331
+                "width": 329
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 461,
+                "height": 458,
                 "type": "panel",
-                "width": 331
+                "width": 329
               }
             ],
             "height": 938,
             "type": "dock-v",
-            "width": 331
+            "width": 329
           },
           {
             "children": [
               {
+                "active": 0,
                 "children": [
-                  {
-                    "active": 0,
-                    "children": [
-                      "scene"
-                    ],
-                    "height": 484,
-                    "type": "panel",
-                    "width": 697
-                  },
-                  {
-                    "active": 0,
-                    "children": [
-                      "node-library"
-                    ],
-                    "height": 484,
-                    "type": "panel",
-                    "width": 390
-                  }
+                  "scene"
                 ],
                 "height": 484,
-                "type": "dock-h",
-                "width": 1090
+                "type": "panel",
+                "width": 1092
               },
               {
                 "active": 0,
@@ -72,12 +56,12 @@
                 ],
                 "height": 451,
                 "type": "panel",
-                "width": 1090
+                "width": 1092
               }
             ],
             "height": 938,
             "type": "dock-v",
-            "width": 1090
+            "width": 1092
           },
           {
             "active": 0,
@@ -96,14 +80,15 @@
         "hierarchy",
         "assets",
         "scene",
-        "node-library",
         "console",
         "timeline",
         "game-window",
         "inspector",
         "cocos-services"
       ]
-    }
+    },
+    "worker": {},
+    "window-1580050458245": {}
   },
   "panels": {
     "sprite-editor": {
@@ -111,10 +96,18 @@
       "y": 240,
       "width": 516,
       "height": 539
+    },
+    "builder": {
+      "x": 702,
+      "y": 140,
+      "width": 670,
+      "height": 739
     }
   },
   "panelLabelWidth": {
-    "inspector": null
+    "inspector": null,
+    "builder": null
   },
-  "panelLabelWidth.inspector": null
+  "panelLabelWidth.inspector": null,
+  "panelLabelWidth.builder": null
 }

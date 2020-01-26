@@ -1,69 +1,233 @@
-2020-01-25T08:19:48.433Z - normal: Load ~/.CocosCreator/settings.json
-2020-01-25T08:19:48.494Z - normal: Initializing Asset Database
-2020-01-25T08:19:48.498Z - normal: checking language setting...
-2020-01-25T08:19:48.499Z - normal: Language: zh
-2020-01-25T08:19:48.897Z - success: preview server running at http://localhost:7456
-2020-01-25T08:19:48.901Z - success: protocol editor-framework registered
-2020-01-25T08:19:48.901Z - success: protocol app registered
-2020-01-25T08:19:48.901Z - success: protocol theme registered
-2020-01-25T08:19:48.901Z - success: protocol packages registered
-2020-01-25T08:19:48.901Z - success: protocol uuid registerred
-2020-01-25T08:19:48.901Z - success: protocol db registerred
-2020-01-25T08:19:48.901Z - success: protocol thumbnail registerred
-2020-01-25T08:19:48.902Z - success: protocol unpack registerred
-2020-01-25T08:19:48.902Z - success: protocol disable-commonjs registerred
-2020-01-25T08:19:49.051Z - normal: connected!
-2020-01-25T08:19:49.052Z - normal: Check project C:\Users\12824\Documents\BBDemo
-2020-01-25T08:19:49.053Z - normal: Initializing project C:\Users\12824\Documents\BBDemo
-2020-01-25T08:19:49.086Z - success: adapters loaded
-2020-01-25T08:19:49.089Z - success: asset-db-debugger loaded
-2020-01-25T08:19:49.150Z - success: fb-audience-network loaded
-2020-01-25T08:19:49.177Z - success: fb-live-stream loaded
-2020-01-25T08:19:49.179Z - success: google-play-instant loaded
-2020-01-25T08:19:49.183Z - success: huawei-runtime loaded
-2020-01-25T08:19:49.184Z - success: jkw-adapter loaded
-2020-01-25T08:19:49.185Z - success: jsb-adapter loaded
-2020-01-25T08:19:49.188Z - success: oppo-runtime loaded
-2020-01-25T08:19:49.191Z - success: package-manager loaded
-2020-01-25T08:19:49.191Z - success: qtt-adapter loaded
-2020-01-25T08:19:49.193Z - success: runtime-dev-tools loaded
-2020-01-25T08:19:49.198Z - success: sdkbox loaded
-2020-01-25T08:19:49.200Z - success: ui-kit-preview-extra loaded
-2020-01-25T08:19:49.202Z - success: ui-kit-preview loaded
-2020-01-25T08:19:49.206Z - success: vivo-runtime loaded
-2020-01-25T08:19:49.208Z - success: alipay-minigame loaded
-2020-01-25T08:19:49.251Z - success: assets loaded
-2020-01-25T08:19:49.254Z - success: baidugame-opendata loaded
-2020-01-25T08:19:49.256Z - success: baidugame loaded
-2020-01-25T08:19:49.258Z - success: builder loaded
-2020-01-25T08:19:49.385Z - success: cocos-services loaded
-2020-01-25T08:19:49.387Z - success: console loaded
-2020-01-25T08:19:49.398Z - success: fb-instant-games loaded
-2020-01-25T08:19:49.399Z - success: game-window loaded
-2020-01-25T08:19:49.400Z - success: google-instant-games loaded
-2020-01-25T08:19:49.403Z - success: hierarchy loaded
-2020-01-25T08:19:49.404Z - success: inspector loaded
-2020-01-25T08:19:49.668Z - success: cpk-publish loaded
-2020-01-25T08:19:49.673Z - success: keystore loaded
-2020-01-25T08:19:49.684Z - success: node-library loaded
-2020-01-25T08:19:49.686Z - success: open-recent-items loaded
-2020-01-25T08:19:49.687Z - success: package-asset loaded
-2020-01-25T08:19:49.688Z - success: preferences loaded
-2020-01-25T08:19:49.689Z - success: project-exporter loaded
-2020-01-25T08:19:49.690Z - success: project-importer loaded
-2020-01-25T08:19:49.692Z - success: project-settings loaded
-2020-01-25T08:19:49.706Z - success: qtt-runtime loaded
-2020-01-25T08:19:49.708Z - success: scene loaded
-2020-01-25T08:19:49.709Z - success: simulator-debugger loaded
-2020-01-25T08:19:49.710Z - success: sprite-editor loaded
-2020-01-25T08:19:49.712Z - success: store loaded
-2020-01-25T08:19:49.714Z - success: timeline loaded
-2020-01-25T08:19:49.717Z - success: wechatgame-opendata loaded
-2020-01-25T08:19:49.720Z - success: wechatgame loaded
-2020-01-25T08:19:49.723Z - success: xiaomi-runtime loaded
-2020-01-25T08:19:50.463Z - normal: Initializing Cocos2d
-2020-01-25T08:19:50.864Z - normal: Initializing engine extends
-2020-01-25T08:19:51.457Z - normal: Loading packages
-2020-01-25T08:19:51.463Z - normal: Watching packages
-2020-01-25T08:19:51.525Z - info: Cocos Service load base data!
-2020-01-25T08:19:51.815Z - normal: Run Application
+2020-01-26T06:18:12.952Z - normal: Load ~/.CocosCreator/settings.json
+2020-01-26T06:18:13.012Z - normal: Initializing Asset Database
+2020-01-26T06:18:13.027Z - normal: checking language setting...
+2020-01-26T06:18:13.027Z - normal: Language: zh
+2020-01-26T06:18:13.448Z - success: preview server running at http://localhost:7456
+2020-01-26T06:18:13.453Z - success: protocol editor-framework registered
+2020-01-26T06:18:13.453Z - success: protocol app registered
+2020-01-26T06:18:13.453Z - success: protocol theme registered
+2020-01-26T06:18:13.453Z - success: protocol packages registered
+2020-01-26T06:18:13.453Z - success: protocol uuid registerred
+2020-01-26T06:18:13.453Z - success: protocol db registerred
+2020-01-26T06:18:13.453Z - success: protocol thumbnail registerred
+2020-01-26T06:18:13.453Z - success: protocol unpack registerred
+2020-01-26T06:18:13.454Z - success: protocol disable-commonjs registerred
+2020-01-26T06:18:13.580Z - normal: connected!
+2020-01-26T06:18:13.581Z - normal: Check project C:\Users\12824\Documents\BBDemo
+2020-01-26T06:18:13.583Z - normal: Initializing project C:\Users\12824\Documents\BBDemo
+2020-01-26T06:18:13.626Z - success: adapters loaded
+2020-01-26T06:18:13.629Z - success: asset-db-debugger loaded
+2020-01-26T06:18:13.692Z - success: fb-audience-network loaded
+2020-01-26T06:18:13.719Z - success: fb-live-stream loaded
+2020-01-26T06:18:13.721Z - success: google-play-instant loaded
+2020-01-26T06:18:13.725Z - success: huawei-runtime loaded
+2020-01-26T06:18:13.726Z - success: jkw-adapter loaded
+2020-01-26T06:18:13.727Z - success: jsb-adapter loaded
+2020-01-26T06:18:13.731Z - success: oppo-runtime loaded
+2020-01-26T06:18:13.733Z - success: package-manager loaded
+2020-01-26T06:18:13.734Z - success: qtt-adapter loaded
+2020-01-26T06:18:13.735Z - success: runtime-dev-tools loaded
+2020-01-26T06:18:13.740Z - success: sdkbox loaded
+2020-01-26T06:18:13.742Z - success: ui-kit-preview-extra loaded
+2020-01-26T06:18:13.743Z - success: ui-kit-preview loaded
+2020-01-26T06:18:13.748Z - success: vivo-runtime loaded
+2020-01-26T06:18:13.750Z - success: alipay-minigame loaded
+2020-01-26T06:18:13.792Z - success: assets loaded
+2020-01-26T06:18:13.795Z - success: baidugame-opendata loaded
+2020-01-26T06:18:13.797Z - success: baidugame loaded
+2020-01-26T06:18:13.799Z - success: builder loaded
+2020-01-26T06:18:13.927Z - success: cocos-services loaded
+2020-01-26T06:18:13.930Z - success: console loaded
+2020-01-26T06:18:13.941Z - success: fb-instant-games loaded
+2020-01-26T06:18:13.943Z - success: game-window loaded
+2020-01-26T06:18:13.944Z - success: google-instant-games loaded
+2020-01-26T06:18:13.946Z - success: hierarchy loaded
+2020-01-26T06:18:13.948Z - success: inspector loaded
+2020-01-26T06:18:14.252Z - success: cpk-publish loaded
+2020-01-26T06:18:14.257Z - success: keystore loaded
+2020-01-26T06:18:14.272Z - success: node-library loaded
+2020-01-26T06:18:14.274Z - success: open-recent-items loaded
+2020-01-26T06:18:14.276Z - success: package-asset loaded
+2020-01-26T06:18:14.277Z - success: preferences loaded
+2020-01-26T06:18:14.279Z - success: project-exporter loaded
+2020-01-26T06:18:14.280Z - success: project-importer loaded
+2020-01-26T06:18:14.282Z - success: project-settings loaded
+2020-01-26T06:18:14.296Z - success: qtt-runtime loaded
+2020-01-26T06:18:14.298Z - success: scene loaded
+2020-01-26T06:18:14.299Z - success: simulator-debugger loaded
+2020-01-26T06:18:14.300Z - success: sprite-editor loaded
+2020-01-26T06:18:14.302Z - success: store loaded
+2020-01-26T06:18:14.305Z - success: timeline loaded
+2020-01-26T06:18:14.307Z - success: wechatgame-opendata loaded
+2020-01-26T06:18:14.311Z - success: wechatgame loaded
+2020-01-26T06:18:14.315Z - success: xiaomi-runtime loaded
+2020-01-26T06:18:15.059Z - normal: Initializing Cocos2d
+2020-01-26T06:18:15.482Z - normal: Initializing engine extends
+2020-01-26T06:18:16.399Z - info: Cocos Service load base data!
+2020-01-26T06:18:19.714Z - normal: Loading packages
+2020-01-26T06:18:19.720Z - normal: Watching packages
+2020-01-26T06:18:20.059Z - normal: Run Application
+2020-01-26T13:38:33.254Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\12824\Documents\BBDemo\assets\scripts\game.js, message: Compile error: SyntaxError: C:/Users/12824/Documents/BBDemo/assets/scripts/game.js: Unexpected token, expected , (115:87)
+  113 | 		returnBtn.on('touchend',function(){
+  114 | 			speedSlider.getComponent(cc.Slider).progress = parseFloat(window.Global.gameSpeed-300)/1000;
+> 115 | 			offsetSlider.getComponent(cc.Slider).progress = parseFloat(window.Global.offset*1000;
+      | 			                                                                                    ^
+  116 | 			settingPanel.y=10000;
+  117 | 		},returnBtn);
+  118 | 		confirmBtn.on('touchend',function(){
+    at Parser.pp$5.raise (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseCallExpressionArguments (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3564:12)
+    at Parser.pp$3.parseSubscripts (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2020-01-26T13:53:31.504Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\12824\Documents\BBDemo\assets\scripts\game.js, message: Compile error: SyntaxError: C:/Users/12824/Documents/BBDemo/assets/scripts/game.js: Unexpected token, expected ; (89:32)
+  87 | 			speedSlider.getComponent(cc.Slider).progress = parseFloat(window.Global.gameSpeed-300)/1000;
+  88 | 			offsetSlider.getComponent(cc.Slider).progress = window.Global.offset*10+0.5;
+> 89 | 			swich(window.Global.accuracy){
+     | 			                             ^
+  90 | 				case 'A':
+  91 | 				break;
+  92 | 				case 'N';
+    at Parser.pp$5.raise (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseBlock (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2247:8)
+    at Parser.pp$3.parseFunctionBody (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4235:22)
+    at Parser.pp$1.parseFunction (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2386:8)
+    at Parser.pp$3.parseFunctionExpression (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3760:17)
+2020-01-26T13:53:43.817Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\12824\Documents\BBDemo\assets\scripts\game.js, message: Compile error: SyntaxError: C:/Users/12824/Documents/BBDemo/assets/scripts/game.js: Unexpected token, expected ; (89:32)
+  87 | 			speedSlider.getComponent(cc.Slider).progress = parseFloat(window.Global.gameSpeed-300)/1000;
+  88 | 			offsetSlider.getComponent(cc.Slider).progress = window.Global.offset*10+0.5;
+> 89 | 			swich(window.Global.accuracy){
+     | 			                             ^
+  90 | 				case 'A':
+  91 | 				break;
+  92 | 				case 'N':
+    at Parser.pp$5.raise (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseBlock (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2247:8)
+    at Parser.pp$3.parseFunctionBody (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4235:22)
+    at Parser.pp$1.parseFunction (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2386:8)
+    at Parser.pp$3.parseFunctionExpression (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3760:17)
+2020-01-26T13:53:47.485Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\12824\Documents\BBDemo\assets\scripts\game.js, message: Compile error: SyntaxError: C:/Users/12824/Documents/BBDemo/assets/scripts/game.js: Unexpected token, expected ; (89:32)
+  87 | 			speedSlider.getComponent(cc.Slider).progress = parseFloat(window.Global.gameSpeed-300)/1000;
+  88 | 			offsetSlider.getComponent(cc.Slider).progress = window.Global.offset*10+0.5;
+> 89 | 			swich(window.Global.accuracy){
+     | 			                             ^
+  90 | 				case 'A':
+  91 | 				break;
+  92 | 				case 'N':
+    at Parser.pp$5.raise (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseBlock (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2247:8)
+    at Parser.pp$3.parseFunctionBody (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4235:22)
+    at Parser.pp$1.parseFunction (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2386:8)
+    at Parser.pp$3.parseFunctionExpression (F:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3760:17)
+2020-01-26T14:54:20.380Z - success: huawei-runtime unloaded
+2020-01-26T14:54:20.386Z - success: oppo-runtime unloaded
+2020-01-26T14:54:20.395Z - success: vivo-runtime unloaded
+2020-01-26T14:54:20.410Z - success: huawei-runtime loaded
+2020-01-26T14:54:20.410Z - success: oppo-runtime loaded
+2020-01-26T14:54:20.410Z - success: vivo-runtime loaded
+2020-01-26T14:54:20.461Z - success: huawei-runtime unloaded
+2020-01-26T14:54:20.461Z - success: oppo-runtime unloaded
+2020-01-26T14:54:20.462Z - success: vivo-runtime unloaded
+2020-01-26T14:54:20.464Z - success: huawei-runtime loaded
+2020-01-26T14:54:20.464Z - success: oppo-runtime loaded
+2020-01-26T14:54:20.464Z - success: vivo-runtime loaded
+2020-01-26T14:55:27.302Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "android": {
+    "packageName": ""
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "C:\\Users\\12824\\Documents\\BBDemo\\build",
+  "debug": false,
+  "dest": "C:\\Users\\12824\\Documents\\BBDemo\\build\\web-mobile",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": ""
+  },
+  "mac": {
+    "packageName": ""
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "229c16a5-03ff-4557-a64e-4f76673a3d4b"
+  ],
+  "sourceMaps": false,
+  "startScene": "229c16a5-03ff-4557-a64e-4f76673a3d4b",
+  "template": "link",
+  "title": "Mania-TwinkleStars",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "9b10aba0-3872-48",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\12824\\Documents\\BBDemo",
+  "projectName": "Mania-TwinkleStars",
+  "debugBuildWorker": false
+}
+2020-01-26T14:55:27.303Z - normal: Building C:\Users\12824\Documents\BBDemo
+2020-01-26T14:55:27.304Z - normal: Destination C:\Users\12824\Documents\BBDemo\build\web-mobile
+2020-01-26T14:55:28.029Z - normal: Delete C:\Users\12824\Documents\BBDemo\build\web-mobile\subpackages/**/*,C:\Users\12824\Documents\BBDemo\build\web-mobile\**\*
+2020-01-26T14:55:31.422Z - normal: Start building assets
+2020-01-26T14:55:31.422Z - normal: Start spawn build-worker
+2020-01-26T14:55:31.982Z - normal: Finish spawn build-worker
+2020-01-26T14:55:31.982Z - normal: Start init build-worker
+2020-01-26T14:55:38.382Z - normal: Finish init build-worker
+2020-01-26T14:55:38.382Z - normal: Start build-assets in worker
+2020-01-26T14:55:39.612Z - normal: Finish build-assets in worker
+2020-01-26T14:55:39.619Z - normal: Finish building assets
+2020-01-26T14:55:39.634Z - normal: Start building plugin scripts
+2020-01-26T14:55:39.757Z - normal: Finish building plugin scripts
+2020-01-26T14:55:39.803Z - normal: Generating main.js from F:\CocosCreator\resources\static\build-templates\shares\main.js
+2020-01-26T14:55:39.890Z - normal: Generating html from F:\CocosCreator\resources\static\build-templates\web-mobile\template\index.html
+2020-01-26T14:55:39.975Z - normal: Built to "C:\Users\12824\Documents\BBDemo\build\web-mobile" successfully
